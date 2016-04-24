@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2410B9AC1C967568002DCF56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2410B9AB1C967568002DCF56 /* main.m */; };
+		2410B9AF1C967568002DCF56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2410B9AE1C967568002DCF56 /* AppDelegate.m */; };
+		2410B9B51C967568002DCF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2410B9B31C967568002DCF56 /* Main.storyboard */; };
+		2410B9B71C967568002DCF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2410B9B61C967568002DCF56 /* Assets.xcassets */; };
+		2410B9BA1C967568002DCF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2410B9B81C967568002DCF56 /* LaunchScreen.storyboard */; };
+		2410B9C31C96770B002DCF56 /* PlayBodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2410B9C21C96770B002DCF56 /* PlayBodyViewController.m */; };
+		2410B9C61C96A0AA002DCF56 /* MacMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2410B9C51C96A0AA002DCF56 /* MacMethod.m */; };
+		2415D1521CA26D4600393DB7 /* rangLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2415D1511CA26D4600393DB7 /* rangLogo.png */; };
+		2415D1541CA27B8400393DB7 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2415D1531CA27B8400393DB7 /* AVOSCloud.framework */; };
+		2415D1561CA27F6400393DB7 /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2415D1531CA27B8400393DB7 /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		241C94541CA125B900C79A6E /* worldRangBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 241C94521CA125B900C79A6E /* worldRangBtn.png */; };
+		241C94551CA125B900C79A6E /* localRangBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 241C94531CA125B900C79A6E /* localRangBtn.png */; };
+		2452F5B71C9FE283003DED1D /* userName.png in Resources */ = {isa = PBXBuildFile; fileRef = 2452F5B61C9FE283003DED1D /* userName.png */; };
+		2452F5B91C9FE91C003DED1D /* upLoad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2452F5B81C9FE91C003DED1D /* upLoad.png */; };
+		2452F5BB1C9FEC9A003DED1D /* saveBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2452F5BA1C9FEC9A003DED1D /* saveBtn.png */; };
+		2452F5BE1CA00793003DED1D /* RankingListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2452F5BD1CA00793003DED1D /* RankingListView.m */; };
+		2452F5C11CA01653003DED1D /* 排名背景左.png in Resources */ = {isa = PBXBuildFile; fileRef = 2452F5BF1CA01653003DED1D /* 排名背景左.png */; };
+		2452F5C21CA01653003DED1D /* 排名背景右.png in Resources */ = {isa = PBXBuildFile; fileRef = 2452F5C01CA01653003DED1D /* 排名背景右.png */; };
+		247AE2551C9A413100CDE0F8 /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE24F1C9A413100CDE0F8 /* angry.png */; };
+		247AE2561C9A413100CDE0F8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE2501C9A413100CDE0F8 /* bg.png */; };
+		247AE2571C9A413100CDE0F8 /* boom.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE2511C9A413100CDE0F8 /* boom.png */; };
+		247AE2581C9A413100CDE0F8 /* cool.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE2521C9A413100CDE0F8 /* cool.png */; };
+		247AE2591C9A413100CDE0F8 /* cry.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE2531C9A413100CDE0F8 /* cry.png */; };
+		247AE25A1C9A413100CDE0F8 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE2541C9A413100CDE0F8 /* fire.png */; };
+		247AE2801C9A87A400CDE0F8 /* zZ1.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE27E1C9A87A400CDE0F8 /* zZ1.png */; };
+		247AE2811C9A87A400CDE0F8 /* zZ2.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE27F1C9A87A400CDE0F8 /* zZ2.png */; };
+		247AE2831C9A8A7F00CDE0F8 /* zZ0.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AE2821C9A8A7F00CDE0F8 /* zZ0.png */; };
+		247AE2871C9A99C700CDE0F8 /* StartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247AE2861C9A99C700CDE0F8 /* StartGameViewController.m */; };
+		24901A871C9BA063007DA197 /* UIImage+ImageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 24901A861C9BA063007DA197 /* UIImage+ImageManage.m */; };
+		24901A891C9BA6DD007DA197 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 24901A881C9BA6DD007DA197 /* logo.png */; };
+		24901A8D1C9BD1A2007DA197 /* 开始游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = 24901A8A1C9BD1A2007DA197 /* 开始游戏.png */; };
+		24901A8E1C9BD1A2007DA197 /* 分享.png in Resources */ = {isa = PBXBuildFile; fileRef = 24901A8B1C9BD1A2007DA197 /* 分享.png */; };
+		24901A8F1C9BD1A2007DA197 /* 排名.png in Resources */ = {isa = PBXBuildFile; fileRef = 24901A8C1C9BD1A2007DA197 /* 排名.png */; };
+		24901A911C9BF23E007DA197 /* 选择位置.png in Resources */ = {isa = PBXBuildFile; fileRef = 24901A901C9BF23E007DA197 /* 选择位置.png */; };
+		24901A941C9C2106007DA197 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24901A931C9C2106007DA197 /* GameOverViewController.m */; };
+		24901A961C9C269B007DA197 /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 24901A951C9C269B007DA197 /* 返回.png */; };
+		2493DD511CAAA73D00F7A924 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 2493DD501CAAA73D00F7A924 /* Tips.png */; };
+		24E407441CA3D50D00D28C1A /* 惊讶声.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24E407421CA3D50D00D28C1A /* 惊讶声.mp3 */; };
+		24E407451CA3D50D00D28C1A /* 啪.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24E407431CA3D50D00D28C1A /* 啪.mp3 */; };
+		24E407491CA3D68E00D28C1A /* 帮助.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E407481CA3D68E00D28C1A /* 帮助.png */; };
+		24EC6DF11CA372B0009806AE /* RangingListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EC6DF01CA372B0009806AE /* RangingListCell.m */; };
+		24EC6DF91CA3BB00009806AE /* 打呼噜.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24EC6DF51CA3BB00009806AE /* 打呼噜.mp3 */; };
+		24EC6DFB1CA3BB00009806AE /* 上课铃声.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24EC6DF71CA3BB00009806AE /* 上课铃声.mp3 */; };
+		24EC6DFC1CA3BB00009806AE /* 嗖嗖嗖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24EC6DF81CA3BB00009806AE /* 嗖嗖嗖.mp3 */; };
+		24EC6E011CA3BB0D009806AE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24EC6DFE1CA3BB0D009806AE /* Icon.png */; };
+		24EC6E021CA3BB0D009806AE /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24EC6DFF1CA3BB0D009806AE /* Icon@2x.png */; };
+		24EC6E031CA3BB0D009806AE /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24EC6E001CA3BB0D009806AE /* Icon@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2415D1571CA27F6400393DB7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2415D1561CA27F6400393DB7 /* AVOSCloud.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2410B9A71C967568002DCF56 /* ClassRoomFright.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassRoomFright.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2410B9AB1C967568002DCF56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2410B9AD1C967568002DCF56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2410B9AE1C967568002DCF56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2410B9B41C967568002DCF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2410B9B61C967568002DCF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2410B9B91C967568002DCF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2410B9BB1C967568002DCF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2410B9C11C96770B002DCF56 /* PlayBodyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayBodyViewController.h; sourceTree = "<group>"; };
+		2410B9C21C96770B002DCF56 /* PlayBodyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayBodyViewController.m; sourceTree = "<group>"; };
+		2410B9C41C96A0AA002DCF56 /* MacMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacMethod.h; sourceTree = "<group>"; };
+		2410B9C51C96A0AA002DCF56 /* MacMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacMethod.m; sourceTree = "<group>"; };
+		2415D1511CA26D4600393DB7 /* rangLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rangLogo.png; sourceTree = "<group>"; };
+		2415D1531CA27B8400393DB7 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		241C94521CA125B900C79A6E /* worldRangBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldRangBtn.png; sourceTree = "<group>"; };
+		241C94531CA125B900C79A6E /* localRangBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = localRangBtn.png; sourceTree = "<group>"; };
+		2452F5B61C9FE283003DED1D /* userName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userName.png; sourceTree = "<group>"; };
+		2452F5B81C9FE91C003DED1D /* upLoad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upLoad.png; sourceTree = "<group>"; };
+		2452F5BA1C9FEC9A003DED1D /* saveBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveBtn.png; sourceTree = "<group>"; };
+		2452F5BC1CA00793003DED1D /* RankingListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingListView.h; sourceTree = "<group>"; };
+		2452F5BD1CA00793003DED1D /* RankingListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingListView.m; sourceTree = "<group>"; };
+		2452F5BF1CA01653003DED1D /* 排名背景左.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "排名背景左.png"; sourceTree = "<group>"; };
+		2452F5C01CA01653003DED1D /* 排名背景右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "排名背景右.png"; sourceTree = "<group>"; };
+		247AE24F1C9A413100CDE0F8 /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
+		247AE2501C9A413100CDE0F8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		247AE2511C9A413100CDE0F8 /* boom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boom.png; sourceTree = "<group>"; };
+		247AE2521C9A413100CDE0F8 /* cool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cool.png; sourceTree = "<group>"; };
+		247AE2531C9A413100CDE0F8 /* cry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cry.png; sourceTree = "<group>"; };
+		247AE2541C9A413100CDE0F8 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		247AE27E1C9A87A400CDE0F8 /* zZ1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zZ1.png; sourceTree = "<group>"; };
+		247AE27F1C9A87A400CDE0F8 /* zZ2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zZ2.png; sourceTree = "<group>"; };
+		247AE2821C9A8A7F00CDE0F8 /* zZ0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zZ0.png; sourceTree = "<group>"; };
+		247AE2841C9A901700CDE0F8 /* FitOfScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FitOfScreen.h; sourceTree = "<group>"; };
+		247AE2851C9A99C700CDE0F8 /* StartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartGameViewController.h; sourceTree = "<group>"; };
+		247AE2861C9A99C700CDE0F8 /* StartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartGameViewController.m; sourceTree = "<group>"; };
+		24901A851C9BA063007DA197 /* UIImage+ImageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageManage.h"; sourceTree = "<group>"; };
+		24901A861C9BA063007DA197 /* UIImage+ImageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageManage.m"; sourceTree = "<group>"; };
+		24901A881C9BA6DD007DA197 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		24901A8A1C9BD1A2007DA197 /* 开始游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始游戏.png"; sourceTree = "<group>"; };
+		24901A8B1C9BD1A2007DA197 /* 分享.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享.png"; sourceTree = "<group>"; };
+		24901A8C1C9BD1A2007DA197 /* 排名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "排名.png"; sourceTree = "<group>"; };
+		24901A901C9BF23E007DA197 /* 选择位置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择位置.png"; sourceTree = "<group>"; };
+		24901A921C9C2106007DA197 /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
+		24901A931C9C2106007DA197 /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		24901A951C9C269B007DA197 /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+		2493DD501CAAA73D00F7A924 /* Tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tips.png; sourceTree = "<group>"; };
+		24E407421CA3D50D00D28C1A /* 惊讶声.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "惊讶声.mp3"; path = "音效/惊讶声.mp3"; sourceTree = "<group>"; };
+		24E407431CA3D50D00D28C1A /* 啪.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "啪.mp3"; path = "音效/啪.mp3"; sourceTree = "<group>"; };
+		24E407481CA3D68E00D28C1A /* 帮助.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "帮助.png"; sourceTree = "<group>"; };
+		24EC6DEF1CA372B0009806AE /* RangingListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangingListCell.h; sourceTree = "<group>"; };
+		24EC6DF01CA372B0009806AE /* RangingListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RangingListCell.m; sourceTree = "<group>"; };
+		24EC6DF51CA3BB00009806AE /* 打呼噜.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "打呼噜.mp3"; path = "音效/打呼噜.mp3"; sourceTree = "<group>"; };
+		24EC6DF71CA3BB00009806AE /* 上课铃声.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "上课铃声.mp3"; path = "音效/上课铃声.mp3"; sourceTree = "<group>"; };
+		24EC6DF81CA3BB00009806AE /* 嗖嗖嗖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "嗖嗖嗖.mp3"; path = "音效/嗖嗖嗖.mp3"; sourceTree = "<group>"; };
+		24EC6DFE1CA3BB0D009806AE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		24EC6DFF1CA3BB0D009806AE /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		24EC6E001CA3BB0D009806AE /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2410B9A41C967568002DCF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2415D1541CA27B8400393DB7 /* AVOSCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2410B99E1C967568002DCF56 = {
+			isa = PBXGroup;
+			children = (
+				2415D1531CA27B8400393DB7 /* AVOSCloud.framework */,
+				2410B9A91C967568002DCF56 /* ClassRoomFright */,
+				2410B9A81C967568002DCF56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2410B9A81C967568002DCF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2410B9A71C967568002DCF56 /* ClassRoomFright.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2410B9A91C967568002DCF56 /* ClassRoomFright */ = {
+			isa = PBXGroup;
+			children = (
+				24EC6DF21CA3BAB8009806AE /* 素材 */,
+				2410B9AD1C967568002DCF56 /* AppDelegate.h */,
+				2410B9AE1C967568002DCF56 /* AppDelegate.m */,
+				247AE2841C9A901700CDE0F8 /* FitOfScreen.h */,
+				24901A851C9BA063007DA197 /* UIImage+ImageManage.h */,
+				24901A861C9BA063007DA197 /* UIImage+ImageManage.m */,
+				2410B9C41C96A0AA002DCF56 /* MacMethod.h */,
+				2410B9C51C96A0AA002DCF56 /* MacMethod.m */,
+				247AE2851C9A99C700CDE0F8 /* StartGameViewController.h */,
+				247AE2861C9A99C700CDE0F8 /* StartGameViewController.m */,
+				2452F5BC1CA00793003DED1D /* RankingListView.h */,
+				2452F5BD1CA00793003DED1D /* RankingListView.m */,
+				24EC6DEF1CA372B0009806AE /* RangingListCell.h */,
+				24EC6DF01CA372B0009806AE /* RangingListCell.m */,
+				2410B9C11C96770B002DCF56 /* PlayBodyViewController.h */,
+				2410B9C21C96770B002DCF56 /* PlayBodyViewController.m */,
+				24901A921C9C2106007DA197 /* GameOverViewController.h */,
+				24901A931C9C2106007DA197 /* GameOverViewController.m */,
+				2410B9B31C967568002DCF56 /* Main.storyboard */,
+				2410B9B61C967568002DCF56 /* Assets.xcassets */,
+				2410B9B81C967568002DCF56 /* LaunchScreen.storyboard */,
+				2410B9BB1C967568002DCF56 /* Info.plist */,
+				2410B9AA1C967568002DCF56 /* Supporting Files */,
+			);
+			path = ClassRoomFright;
+			sourceTree = "<group>";
+		};
+		2410B9AA1C967568002DCF56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2410B9AB1C967568002DCF56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		247AE24E1C9A413100CDE0F8 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				24EC6DFD1CA3BB0D009806AE /* Icon */,
+				2415D1511CA26D4600393DB7 /* rangLogo.png */,
+				2493DD501CAAA73D00F7A924 /* Tips.png */,
+				24E407481CA3D68E00D28C1A /* 帮助.png */,
+				241C94521CA125B900C79A6E /* worldRangBtn.png */,
+				241C94531CA125B900C79A6E /* localRangBtn.png */,
+				2452F5BF1CA01653003DED1D /* 排名背景左.png */,
+				2452F5C01CA01653003DED1D /* 排名背景右.png */,
+				2452F5BA1C9FEC9A003DED1D /* saveBtn.png */,
+				2452F5B81C9FE91C003DED1D /* upLoad.png */,
+				2452F5B61C9FE283003DED1D /* userName.png */,
+				24901A951C9C269B007DA197 /* 返回.png */,
+				24901A901C9BF23E007DA197 /* 选择位置.png */,
+				24901A8A1C9BD1A2007DA197 /* 开始游戏.png */,
+				24901A8B1C9BD1A2007DA197 /* 分享.png */,
+				24901A8C1C9BD1A2007DA197 /* 排名.png */,
+				24901A881C9BA6DD007DA197 /* logo.png */,
+				247AE2821C9A8A7F00CDE0F8 /* zZ0.png */,
+				247AE27E1C9A87A400CDE0F8 /* zZ1.png */,
+				247AE27F1C9A87A400CDE0F8 /* zZ2.png */,
+				247AE24F1C9A413100CDE0F8 /* angry.png */,
+				247AE2501C9A413100CDE0F8 /* bg.png */,
+				247AE2511C9A413100CDE0F8 /* boom.png */,
+				247AE2521C9A413100CDE0F8 /* cool.png */,
+				247AE2531C9A413100CDE0F8 /* cry.png */,
+				247AE2541C9A413100CDE0F8 /* fire.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		24EC6DF21CA3BAB8009806AE /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				24EC6DF41CA3BADA009806AE /* 音效 */,
+				247AE24E1C9A413100CDE0F8 /* 图片 */,
+			);
+			name = "素材";
+			sourceTree = "<group>";
+		};
+		24EC6DF41CA3BADA009806AE /* 音效 */ = {
+			isa = PBXGroup;
+			children = (
+				24E407421CA3D50D00D28C1A /* 惊讶声.mp3 */,
+				24E407431CA3D50D00D28C1A /* 啪.mp3 */,
+				24EC6DF51CA3BB00009806AE /* 打呼噜.mp3 */,
+				24EC6DF71CA3BB00009806AE /* 上课铃声.mp3 */,
+				24EC6DF81CA3BB00009806AE /* 嗖嗖嗖.mp3 */,
+			);
+			name = "音效";
+			sourceTree = "<group>";
+		};
+		24EC6DFD1CA3BB0D009806AE /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				24EC6DFE1CA3BB0D009806AE /* Icon.png */,
+				24EC6DFF1CA3BB0D009806AE /* Icon@2x.png */,
+				24EC6E001CA3BB0D009806AE /* Icon@3x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2410B9A61C967568002DCF56 /* ClassRoomFright */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2410B9BE1C967568002DCF56 /* Build configuration list for PBXNativeTarget "ClassRoomFright" */;
+			buildPhases = (
+				2410B9A31C967568002DCF56 /* Sources */,
+				2410B9A41C967568002DCF56 /* Frameworks */,
+				2410B9A51C967568002DCF56 /* Resources */,
+				2415D1571CA27F6400393DB7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassRoomFright;
+			productName = ClassRoomFright;
+			productReference = 2410B9A71C967568002DCF56 /* ClassRoomFright.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2410B99F1C967568002DCF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ChenZongYuan;
+				TargetAttributes = {
+					2410B9A61C967568002DCF56 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HQJQQ73WHV;
+					};
+				};
+			};
+			buildConfigurationList = 2410B9A21C967568002DCF56 /* Build configuration list for PBXProject "ClassRoomFright" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2410B99E1C967568002DCF56;
+			productRefGroup = 2410B9A81C967568002DCF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2410B9A61C967568002DCF56 /* ClassRoomFright */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2410B9A51C967568002DCF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2415D1521CA26D4600393DB7 /* rangLogo.png in Resources */,
+				24E407451CA3D50D00D28C1A /* 啪.mp3 in Resources */,
+				24EC6DFB1CA3BB00009806AE /* 上课铃声.mp3 in Resources */,
+				24901A8E1C9BD1A2007DA197 /* 分享.png in Resources */,
+				24901A891C9BA6DD007DA197 /* logo.png in Resources */,
+				24EC6E031CA3BB0D009806AE /* Icon@3x.png in Resources */,
+				247AE2591C9A413100CDE0F8 /* cry.png in Resources */,
+				247AE2561C9A413100CDE0F8 /* bg.png in Resources */,
+				247AE2811C9A87A400CDE0F8 /* zZ2.png in Resources */,
+				247AE25A1C9A413100CDE0F8 /* fire.png in Resources */,
+				24901A8D1C9BD1A2007DA197 /* 开始游戏.png in Resources */,
+				2410B9BA1C967568002DCF56 /* LaunchScreen.storyboard in Resources */,
+				24EC6DF91CA3BB00009806AE /* 打呼噜.mp3 in Resources */,
+				2452F5C21CA01653003DED1D /* 排名背景右.png in Resources */,
+				24901A8F1C9BD1A2007DA197 /* 排名.png in Resources */,
+				24E407491CA3D68E00D28C1A /* 帮助.png in Resources */,
+				247AE2571C9A413100CDE0F8 /* boom.png in Resources */,
+				2452F5B91C9FE91C003DED1D /* upLoad.png in Resources */,
+				24EC6E011CA3BB0D009806AE /* Icon.png in Resources */,
+				241C94551CA125B900C79A6E /* localRangBtn.png in Resources */,
+				24E407441CA3D50D00D28C1A /* 惊讶声.mp3 in Resources */,
+				247AE2831C9A8A7F00CDE0F8 /* zZ0.png in Resources */,
+				2452F5C11CA01653003DED1D /* 排名背景左.png in Resources */,
+				247AE2551C9A413100CDE0F8 /* angry.png in Resources */,
+				2452F5BB1C9FEC9A003DED1D /* saveBtn.png in Resources */,
+				24EC6DFC1CA3BB00009806AE /* 嗖嗖嗖.mp3 in Resources */,
+				2410B9B71C967568002DCF56 /* Assets.xcassets in Resources */,
+				2493DD511CAAA73D00F7A924 /* Tips.png in Resources */,
+				24901A961C9C269B007DA197 /* 返回.png in Resources */,
+				24EC6E021CA3BB0D009806AE /* Icon@2x.png in Resources */,
+				2410B9B51C967568002DCF56 /* Main.storyboard in Resources */,
+				247AE2801C9A87A400CDE0F8 /* zZ1.png in Resources */,
+				24901A911C9BF23E007DA197 /* 选择位置.png in Resources */,
+				247AE2581C9A413100CDE0F8 /* cool.png in Resources */,
+				2452F5B71C9FE283003DED1D /* userName.png in Resources */,
+				241C94541CA125B900C79A6E /* worldRangBtn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2410B9A31C967568002DCF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24901A871C9BA063007DA197 /* UIImage+ImageManage.m in Sources */,
+				2410B9C61C96A0AA002DCF56 /* MacMethod.m in Sources */,
+				24EC6DF11CA372B0009806AE /* RangingListCell.m in Sources */,
+				2410B9AF1C967568002DCF56 /* AppDelegate.m in Sources */,
+				2410B9C31C96770B002DCF56 /* PlayBodyViewController.m in Sources */,
+				24901A941C9C2106007DA197 /* GameOverViewController.m in Sources */,
+				2452F5BE1CA00793003DED1D /* RankingListView.m in Sources */,
+				2410B9AC1C967568002DCF56 /* main.m in Sources */,
+				247AE2871C9A99C700CDE0F8 /* StartGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2410B9B31C967568002DCF56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2410B9B41C967568002DCF56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2410B9B81C967568002DCF56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2410B9B91C967568002DCF56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2410B9BC1C967568002DCF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2410B9BD1C967568002DCF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2410B9BF1C967568002DCF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ClassRoomFright/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rimi.oline.www.ClassRoomFright;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2410B9C01C967568002DCF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ClassRoomFright/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rimi.oline.www.ClassRoomFright;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2410B9A21C967568002DCF56 /* Build configuration list for PBXProject "ClassRoomFright" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2410B9BC1C967568002DCF56 /* Debug */,
+				2410B9BD1C967568002DCF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2410B9BE1C967568002DCF56 /* Build configuration list for PBXNativeTarget "ClassRoomFright" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2410B9BF1C967568002DCF56 /* Debug */,
+				2410B9C01C967568002DCF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2410B99F1C967568002DCF56 /* Project object */;
+}
